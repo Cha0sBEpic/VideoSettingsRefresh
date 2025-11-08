@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "videosettingsrefresh",
+  "version": "${version}",
+  "name": "Video Settings Refresh",
+  "description": "Automatically refreshes video settings when joining a world or server.",
+  "authors": [
+    "Cha0sBEpic"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Cha0sBEpic/",
+    "sources": "https://github.com/Cha0sBEpic/VideoSettingsRefresh"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.videosettingsrefresh.VideoSettingsRefreshMod"
+    ]
+  },
+  "mixins": [
+    "videosettingsrefresh.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3"
+  }
+}
