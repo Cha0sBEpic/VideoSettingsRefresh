@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vsr",
+  "version": "${version}",
+  "name": "Video Settings Refresh",
+  "description": "Automatically refreshes video settings when joining a world or server.",
+  "authors": [
+    "Cha0sBEpic"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Cha0sBEpic/VideoSettingsRefresh",
+    "sources": "https://github.com/Cha0sBEpic/VideoSettingsRefresh"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.chaoticdev.vsr.client.VSRClient"
+    ],
+    "modmenu": [
+      "org.chaoticdev.vsr.client.ModMenuAPI"
+    ]
+  },
+  "mixins": [
+    "vsr.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

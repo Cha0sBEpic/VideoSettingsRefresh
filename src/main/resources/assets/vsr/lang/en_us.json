@@ -1,0 +1,8 @@
+{
+  "key.videosettingsrefresh.refresh": "Refresh Video Settings",
+  "key.category.videosettingsrefresh.general": "Video Settings Refresh",
+  "text.autoconfig.vsr.title": "Video Settings Refresh Configuration",
+  "text.autoconfig.vsr.category.default": "General",
+  "text.autoconfig.vsr.option.enableHotkey": "Enable Hotkey",
+  "text.autoconfig.vsr.option.enableHotkey.tooltip": "Toggle whether the manual hotkey should work."
+}
